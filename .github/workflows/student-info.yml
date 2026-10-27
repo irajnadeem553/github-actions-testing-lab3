@@ -1,0 +1,16 @@
+
+name: Student Information Workflow
+
+on:
+  push:
+
+jobs:
+  student:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Student Information
+        run: |
+          echo "Student Name: IRAJ NADEEM"
+          echo "Course: BS Cyber Security"
+          echo "University: CUST University"
+          echo "Lab: GitHub Actions"
